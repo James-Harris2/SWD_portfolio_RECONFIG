@@ -27,7 +27,7 @@ function Home2() {
            ALLOW LET ME <span style={{ color: "purple" }}>INTRODUCE</span> MYSELF
           </Typography>
           <Typography variant="body1">
-            I fell in love with programming, after being a commercial truck driver for 20+ years. I want to build something great… 🤷‍♂️
+            I fell in love with programming, after being a commercial truck driver for 20+ years. I enjoy learning Technologies, and serving my community with my talents build something great… 🤷‍♂️
             <br />
             <br />
             I am fluent in classics like

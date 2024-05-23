@@ -1,33 +1,31 @@
-import { Container, Grid, Typography,} from "@mui/material";
-import Asset from "../src/Assets/asset2_me.jpg"
+import { Container, Grid, Typography } from "@mui/material";
+import Asset2 from "../src/Assets/asset2_me.jpg"
 import Home2 from "./Home2";
-import Type from "../src/Type.jsx";
-import Particle from "../src/Particles.jsx";
+import Type from "../src/ParticlesConfig.js"
+import Particle from "./Particles.jsx"
 
 function Home() {
   return (
     <section>
-      <Container maxWidth="xl" id="home"> {/* Removed the py style */}
+      <Container maxWidth="xl" id="home">
         <Particle />
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={7}> 
+        <Grid container spacing={2} alignItems="center"> {/* Align items vertically */}
+          <Grid item xs={12} md={7}>
             <Typography variant="h4" gutterBottom>
-              Hi There! <span role="img" aria-label="wave">👋🏻</span>
+              Hi There! 🐶  {/* Replaced hand gesture with Happy Dog emoji */}
             </Typography>
 
-            <Typography variant="h3" component="h1">
-              I'M <strong className="main-name">JH</strong>
+            <Typography variant="h2" component="h1">
+              IM <strong className="main-name">JH</strong>
               <span className="sub-name"> (James Harris)</span>
             </Typography>
 
-            <div style={{ padding: "50px 0", textAlign: "left" }}> {/* Adjusted padding */}
-              <Type />
-            </div>
+            <Type /> {/* No need for additional styling here */}
           </Grid>
 
-          <Grid item xs={12} md={5} sx={{ display: "flex", alignItems: "center" }}>
+          <Grid item xs={12} md={5}>
             <img 
-              src={Asset}
+              src={Asset2}
               alt="home pic"
               style={{ maxHeight: 450, width: "100%" }} 
             />

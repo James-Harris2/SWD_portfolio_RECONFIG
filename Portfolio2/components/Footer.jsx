@@ -1,5 +1,5 @@
 import { Container, Typography, Grid, Link } from "@mui/material";
-import socialMediaLinks from "./Contants"
+import socialMediaLinks from "../src/Contants"
 
 function Footer() {
   const currentYear = new Date().getFullYear();
