@@ -1,5 +1,5 @@
 import React from 'react';
-import {  as Router, Route, Switch } from 'react-router-dom';
+import {  Router, Route, Switch } from 'react-router-dom';
 import HomePage from '../Components/index';
 const RouterDOM = () => {
 	return (
