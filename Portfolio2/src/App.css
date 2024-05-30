@@ -15,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #f27052; /* Warm orange */
+  background-color: hsl(213, 70%, 48%); /* light Blue*/
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,15 +27,15 @@
 }
 
 .App-link {
-  color: #ffdd57; /* Sunny yellow */
+  color: #cb7d10; /* Sunny yellow */
   text-decoration: none;
   font-weight: bold;
-  border-bottom: 2px solid #ffdd57; /* Highlight on hover */
+  border-bottom: 2px solid #c78509; /* Highlight on hover */
   transition: border-bottom-color 0.2s ease; /* Smooth transition */
 }
 
 .App-link:hover {
-  border-bottom-color: #fff200; /* Brighter yellow on hover */
+  border-bottom-color: #cb7d10; /* Brighter yellow on hover */
 }
 
 @keyframes App-logo-spin {
